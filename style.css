@@ -1,0 +1,555 @@
+body{
+    font-family: poppins;
+    margin: 0;
+}
+.navbar{
+    background-color: #D9D9D9;
+    gap: 40px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 15px;
+    width:100%;
+}
+.navbar a{
+    text-decoration:none;
+    color: black;
+    font-weight:500;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.header p{
+    display:flex;
+    justify-content:center;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.container{
+    width:1281px;
+    height:891px;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content:center;
+}
+
+.main-container{
+    display:flex;
+    flex-direction:column;
+    width:490px;
+    gap:20px;
+    /* background-color:green; */
+}
+
+.second-main{
+    display:flex;
+    flex-direction:column;
+    width:500px;
+    gap:20px;
+    /* background-color:salmon; */
+}
+
+.tentara{
+    display:flex;
+    flex-direction:row;
+    width:490px;
+    height:180px;
+    border-radius:20px;
+    background-color:#D5FFDD;
+}
+
+.tentara img{
+    height:230px;
+    margin-top:-50px;
+}
+
+.tentara h5{
+    font-size:32px;
+    font-weight:500;
+    margin-top:10px;
+    height:5px;
+}
+
+.tentara p{
+    font-size:14px;
+    font-weight:500;
+    height:30px;
+    line-height:21px;
+    margin-top:60px;
+    margin-left:-125px;
+}
+
+.tentara a{
+    background-color:#399349;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:240px;
+    height:37px;
+    border-radius:15px;
+    margin-top:130px;
+    margin-left:-150px;
+    text-decoration:none;
+    color:white;
+}
+
+.plural-1 {
+    display:flex;
+    gap:20px;
+}
+
+.jobs{
+    display:flex;
+    flex-direction:column;  
+    gap:20px;
+}
+
+.fotografer{
+    width:230px;
+    height:392px;
+    border-radius:15px;
+    background-color:#E2F2FF;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.fotografer img{
+    margin-top:-20px;
+}
+
+.fotografer h5{
+    font-size:20px;
+    font-weight:500;
+    margin-top:10px;
+}
+
+.fotografer p{
+    font-size:12px;
+    weight:500;
+    width:133px;
+    height:54px;
+    text-align:center;
+    margin-top:-20px;
+}
+
+.fotografer a{
+    background-color:#3279AF;
+    width:173px;
+    height:37px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+}
+
+.engineer {
+    width:235px;
+    height:180px;
+    background-color:#FFF4DC;
+    border-radius:15px;
+}
+
+.engineer img{
+    margin-top:10px;
+    margin-left:30px;
+    display:flex;
+}
+
+.engineer a{
+    background-color:#E29A00;
+    display:flex;
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+    width:173px;
+    height:37px;
+    border-radius:15px;
+    margin-left:30px;
+    margin-top:-45px;
+    text-decoration:none;
+    color:white;
+}
+
+.pramugari {
+    width:235px;
+    height:190px;
+    background-color:#FFCED7;
+    border-radius:15px;
+}
+
+.pramugari img{
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.pramugari a{
+    background-color:#FF5573;
+    display:flex;
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+    width:173px;
+    height:37px;
+    border-radius:15px;
+    margin-left:30px;
+    margin-top:-52px;
+    text-decoration:none;
+    color:white;
+}
+
+.tiga-jobs{
+    width:500px;
+    height:392px;
+    background-color:#F4F4F4;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+}
+
+.dokter, .pilot, .ilmuan{
+    background-color:#FFFFFF;
+    width:423px;
+    height:96px;
+    border-radius:20px;
+    border:1px solid #D8D6C1;
+    display:flex;
+    align-items:center;
+}
+
+.tiga-jobs img{
+    height:70px;
+    margin-left:10px;
+}
+
+.tiga-jobs h5{
+    font-size:20px;
+    font-weight:500;
+    width:75px;
+}
+
+.tiga-jobs a{
+    background-color:#D8D6C1;
+    width:149px;
+    height:22px;
+    font-size:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+    margin-left:-75px;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+}
+
+.dua-jobs{
+    width:500px;
+    height:181px;
+    background-color:#F2F2F2;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.pembalap{
+    width:220px;
+    margin-left:10px;
+    display:flex;
+}
+
+.astronout{
+    width:250px;
+    display:flex;
+}
+
+.dua-jobs h5{
+    font-size:15px;
+    font-weight:500;
+}
+
+.dua-jobs a{
+    background-color:#D8D6C1;
+    width:100px;
+    height:55px;
+    margin-top:65px;
+    margin-left:-80px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    color:white;
+}
+
+@media screen and (min-width: 425px) and (max-width: 1279px) {
+    .navbar{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index:3;
+    }
+
+    .header{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 60px;
+        postion:absolute;
+    }
+
+    .header p{
+        display:flex;
+        justify-content:center;
+        postion:absolute;
+    }
+
+    .container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin-top:800px;
+        gap:40px;
+        margin-bottom:1000px;
+    }
+
+    .main-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:40px;
+    }
+
+    .container a{
+        font-size:20px;
+        width: 212.41px;
+        height: 45.43px;
+    }
+
+    .tentara{
+        width:289px;
+        height:299px;
+        margin-top:100px;
+    }
+
+    .tentara img{
+        width:230px;
+        margin-left:30px;
+        margin-top:-50px;
+    }
+
+    .tentara a{
+        width:212.41px;
+        margin-top:160px;
+        margin-left:-185px;
+    }
+
+    .tentara h5{
+        font-size:20px;
+        margin-top:210px;
+        margin-left:-150px;
+    }
+
+    .tentara p{
+        margin-top:240px;
+        margin-left:-110px;
+    }
+
+    .plural-1{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:288.53px;
+        gap:90px;
+    }
+
+    .jobs{
+        gap:40px;
+    }
+
+    .fotografer{
+        width:289px;
+        height:314px;
+    }
+
+    .fotografer img{
+        width:230px;
+        margin-top:-140px;
+    }
+
+    .fotografer a{
+        margin-top:-27px;
+    }
+
+    .fotografer h5{
+        position:absolute;
+        margin-top:180px;
+    }
+
+    .fotografer p{
+        position:absolute;
+        width:169px;
+        margin-top:240px;
+        font-size:12px;
+    }
+
+    .engineer{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:288.53px;
+        height:221px;
+    }
+
+    .engineer img{
+        width:213.26px;
+        margin-left:-1px;
+    }
+
+    .engineer a{
+        margin-left:-1px;
+        margin-top:155px;
+    }
+
+    .pramugari{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:289px;
+        height:221px;
+    }
+
+    .pramugari img{
+        width:209.06px;
+        margin-top:15px;
+        margin-left:-1px;
+    }
+
+    .pramugari a{
+        margin-left:-1px;
+        margin-top:155px;
+        z-index:0;
+    }
+
+    .second-main{
+        gap:40px;
+    }
+
+    .tiga-jobs{
+        background-color:white;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        height:auto;
+        gap:40px;
+    }
+
+    .dokter, .pilot, .ilmuan{
+        border:0px;
+        width:289px;
+        height:221px;
+        background-color:#E9E8E2;
+    }
+
+    .tiga-jobs h5{
+        z-index:-1;
+    }
+
+    .tiga-jobs img{
+        width:213px;
+        height:213px;
+        position:absolute;
+        margin-top:12px;
+        margin-left:40px;
+    }
+
+    .tiga-jobs a{
+        position:absolute;
+        margin-top:160px;
+        margin-left:40px;
+    }
+
+    .dua-jobs{
+        display:flex;
+        flex-direction:column;
+        background-color:white;
+        height:auto;
+        gap:40px;
+    }
+
+    .dua-jobs h5{
+        z-index:-1;
+    }
+
+    .pembalap a{
+        position:absolute;
+        z-index:1;
+        margin-top:160px;
+        margin-left:0px;
+        background-color:#E36415;
+    }
+
+    .pembalap{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#FFDBC5;
+        border-radius:15px;
+        width:289px;
+        height:223px;
+    }
+    
+    .pembalap img{
+        margin-top:12px;
+        margin-left:70px;
+        width:213px;
+        height:213px;
+    }
+
+    .astronout{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color:#8FC5ED;
+        border-radius:15px;
+        width:289px;
+        height:223px;
+    }
+
+    .astronout a{
+        position:absolute;
+        z-index:1;
+        margin-top:160px;
+        margin-left:-0px;
+        background-color:#275E87;
+    }
+
+    .astronout img{
+        position:absolute;
+        width:213px;
+        margin-top:15px;
+    }
+}
